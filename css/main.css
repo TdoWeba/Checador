@@ -1,0 +1,128 @@
+body{
+	background-color:white;
+	margin: 0;
+	height: auto;
+}
+
+/*\start/*/
+header{
+	background-color: #262626;
+	 padding: 15px 15px 7px;
+}
+header ul{
+		display:inline-block;
+		width:70%;
+		margin:0;
+}
+header li a{
+	float: right;
+	color: white;
+	font-size: 14px;
+}
+header img{
+	display: inline-block;
+	width: 10%;
+}
+header h4{
+	display: inline-block;
+	width: 10%;
+	color: white;
+}
+header ul li a:hover{
+	opacity: 0.8;
+}
+
+/*\end/*/
+section{
+	 padding-top: 50px;
+	 width: 80%;
+	 height: auto;
+	 margin: auto;
+	 position: relative;
+
+}
+.divS{
+	 width: 50%;
+	 height: auto;
+	 margin: auto;
+	 text-align: center;
+	 position: relative;
+}
+.formulario{
+	 background-color: #F1F1F1;
+	 border-radius: 22px 22px 22px 22px;
+	 text-align: center;
+	 height: auto;
+	 padding: 50px;
+	 position: relative;
+	 margin-top: -20px;
+	 margin-bottom:20px;
+}
+.formulario div{
+	height: 70px;
+	 margin:10px 0 15px;
+
+}
+.formulario div label{
+	display: block;
+	margin-bottom: 5px;
+	text-align: left;
+	font-size: 18px;
+}
+.nombre{
+	display: block;
+	margin-bottom: 5px;
+	text-align: left;
+}
+.apellidos{
+	width: 47%;
+	display: inline-block;
+	margin-bottom: 5px;
+	text-align: left;
+}
+#ap{
+	margin-right: 3%;
+}
+.formulario div input{
+	width: 100%;
+	height:35px;
+	border-radius: 5px;
+	border: 1px solid#cccccc;
+}
+.formulario div button{
+	width: 35%;
+	border-radius: 5px;
+	padding: 10px 25px;
+	color: #ffffff;
+	border: none;
+}
+#reg{
+	width: 35%;
+	border-radius: 5px;
+	padding: 10px 25px;
+	color: #ffffff;
+	border: none;
+	background-color: #008CBD;
+	margin-right: 9%;
+}
+#can{
+	width: 35%;
+	border-radius: 5px;
+	padding: 10px 25px;
+	color: #ffffff;
+	border: none;
+	background-color: red;
+}
+.carrera{
+	width: auto;
+	border-radius: 5px;
+	border: 1px solid#cccccc;
+}
+.carrerasact{
+	width: 100%;
+	height: 35px;
+	display: inline-block;
+	margin-bottom: 5px;
+	text-align: left;
+}
+     
